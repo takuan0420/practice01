@@ -1,0 +1,143 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  ;
+}
+
+header {
+  height: 100px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+header img {
+  height: 90px;
+  float: left;
+  padding: 5px 0;
+}
+
+.menu {
+  float:right;
+  margin-top: 40px;
+}
+
+.menu a {
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 50px;
+  color: #66ccff;
+}
+
+.top-wrapper {
+  height: 400px;
+  background-image: url(images/kumo37.png);
+  background-size: cover;
+  color: white;
+}
+
+.top-wrapper img {
+  height: 400px;
+  float: right;
+  position: absolute;
+}
+
+.top-wrapper img:hover {
+  opacity:0.9;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.top-wrapper img:active {
+  position: absolute;
+  top: 200px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center
+}
+
+.container h1 {
+  float: left;
+  font-size: 50px;
+  padding: 100px 0;
+}
+
+.yakko {
+  font-size: 40px;
+  font-family: "メイリオ";
+  float: right;
+  margin-right: 130px;
+}
+
+.event {
+  padding: 100px 0;
+}
+
+.container h2 {
+  font-size: 30px;
+  width: 150px;
+  border-bottom: 1px solid #b4c1d1;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.event-contents {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+  text-align:left;
+}
+
+.event-contents p {
+ display: inline-block;
+ line-height: 20px;
+ width: 30%;
+ color: #788897;
+}
+
+.event-contents a {
+  display: inline-block;
+  line-height: 20px;
+  width: 70%;
+  color: #788897;
+  text-decoration: none;
+ }
+
+ .event-contents a:hover {
+  color: #b4c1d1;
+ }
+
+ .hitory-contents h3 {
+  font-size: 25px;
+  line-height: 35px;
+  background-color: #b4c1d1;
+  opacity: 0.6;
+  color: white;
+ }
+
+ .picture {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .picture img {
+  width: 30%;
+ }
+
+ .hitory-contents p{
+  padding: 15px 0;
+  text-align: left;
+  margin-bottom: 100px;
+ }
+
+ footer {
+  height: 50px;
+  background-color: #66ccff
+ }
+
+ footer p {
+  line-height: 50px;
+  text-align: center;
+  color: white;
+ }
